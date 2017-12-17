@@ -1,0 +1,8 @@
+{
+  "name": "postcss-icon.icono",
+  "version": "0.0.0",
+  "main": "icono.json",
+  "repository": "https://github.com/retyui/postcss-icon.icono",
+  "author": "David ♥ <vamnemne@gmail.com>",
+  "license": "MIT"
+}
