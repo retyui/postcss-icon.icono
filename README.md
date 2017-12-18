@@ -16,16 +16,20 @@ yarn add -D postcss-icon.icono
 const postcss     = require('postcss');
 const postcssIcon = require('postcss-icon');
 const dataIcono   = require('postcss-icon.icono');
+
+const CSS = `
+.custom-selector{
+	@icon: icono-search; /* 'icono-' is Prefix , 'search' is name Icon*/ }
+.custom-selector2{ /* or */
+	@icon icono-search; }
+`;
+
 postcss(
 	postcssIcon({
 		prefix: 'icono-', /* required when using multiple Icon.data sets */
 		data: dataIcono
 	})
-).process(`
-.custom-selector{ @icon: icono-search; } /* 'icono-' is Prefix , 'search' is name Icon*/
-/* or */
-.custom-selector2{ @icon icono-search; }
-`).then(({css,messages}) => {
+).process(CSS).then(({css,messages}) => {
 	console.log(css);
 	messages
 		.filter(i => i.type === "warning")
