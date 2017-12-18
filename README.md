@@ -15,14 +15,14 @@ yarn add -D postcss-icon.icono
 ```js
 const postcss     = require('postcss');
 const postcssIcon = require('postcss-icon');
-const dataIcono = require('postcss-icon.icono');
+const dataIcono   = require('postcss-icon.icono');
 postcss(
 	postcssIcon({
 		prefix: 'icono-', /* required when using multiple Icon.data sets */
 		data: dataIcono
 	})
 ).process(`
-.custom-selector{ @icon: icono-search; } /* `icono-` is Prefix , `search` is name Icon*/
+.custom-selector{ @icon: icono-search; } /* 'icono-' is Prefix , 'search' is name Icon*/
 /* or */
 .custom-selector{ @icon icono-search; }
 `).then(({css,messages}) => {
