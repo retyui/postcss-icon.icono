@@ -4,6 +4,8 @@ Icons data for [postcss-icon plugin](https://github.com/retyui/postcss-icon)
 
 Based on [icono](https://saeedalipoor.github.io/icono/)
 
+![Icono](https://raw.githubusercontent.com/retyui/postcss-icon.icono/master/retyui.github.io_postcss-icon_icono.png)
+
 ## Install
 ```bash
 npm install -D postcss-icon.icono
