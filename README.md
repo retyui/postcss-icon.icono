@@ -24,7 +24,7 @@ postcss(
 ).process(`
 .custom-selector{ @icon: icono-search; } /* 'icono-' is Prefix , 'search' is name Icon*/
 /* or */
-.custom-selector{ @icon icono-search; }
+.custom-selector2{ @icon icono-search; }
 `).then(({css,messages}) => {
 	console.log(css);
 	messages
