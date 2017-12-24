@@ -42,7 +42,12 @@ postcss(
 });
 ```
 
-## All name icons [preview](https://retyui.github.io/postcss-icon/icono/)
+# Other icon sets:
+- [postcss-icon.cssicon](https://github.com/retyui/postcss-icon.cssicon) (count icons : 192) [result demo](https://retyui.github.io/postcss-icon/cssicon/)
+- [postcss-icon.joshnh](https://github.com/retyui/postcss-icon.joshnh) (count icons : 24) [result demo](https://retyui.github.io/postcss-icon/joshnh/)
+
+
+## All name icons (count: 131) [result demo](https://retyui.github.io/postcss-icon/icono/)
 
 ```js
 Object.keys(require('postcss-icon.icono')).sort().join(', ')
