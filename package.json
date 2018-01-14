@@ -1,8 +1,12 @@
 {
   "name": "postcss-icon.icono",
-  "version": "0.0.4",
-  "main": "icono.json",
+  "version": "1.0.0",
+  "main": "icono.js",
   "repository": "https://github.com/retyui/postcss-icon.icono",
-  "author": "David ♥ <vamnemne@gmail.com>",
-  "license": "MIT"
+  "author": "retyui <vamnemne@gmail.com>",
+  "license": "MIT",
+  "files": [],
+  "peerDependencies": {
+    "postcss-icon": "7.x"
+  }
 }
